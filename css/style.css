@@ -3,13 +3,22 @@
     margin: 0;
     padding: 0;
 }
+
 .container {
+  padding: 35px 0;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
+}
   
+  
+
+.name {
+    padding-top: 35px;
+    color: darkblue;
+  }
 }
 .data{
-  padding: 15px;
+  padding: 25px;
 }
 
 
@@ -18,4 +27,8 @@
   padding: 25px 0;
   color: rgb(51, 50, 50);
 }
-
+.content{
+  font-size: 25px;
+  color: rgb(78, 74, 74);
+  border-bottom: 5px solid rgb(204, 189, 189);
+}

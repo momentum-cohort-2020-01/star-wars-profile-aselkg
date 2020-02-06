@@ -31,7 +31,7 @@ Promise.all(urls.map(url =>
 
         const nameField = document.createElement('h3')
         nameField.textContent = element.results[i].name
-        main.classList.add('name')
+        nameField.classList.add('name')
         main.appendChild(nameField)
 
         // species field
